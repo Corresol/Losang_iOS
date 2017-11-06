@@ -1,0 +1,41 @@
+PODS:
+  - FSCalendar (2.6.0)
+  - JSQMessagesViewController (7.3.4):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SVProgressHUD (2.1.2)
+  - SwiftCharts (0.5.1)
+  - SWSegmentedControl (2.1.0)
+
+DEPENDENCIES:
+  - FSCalendar
+  - JSQMessagesViewController (~> 7.3)
+  - SDWebImage (~> 3.8)
+  - SVProgressHUD (~> 2.1)
+  - SwiftCharts (from `https://github.com/i-schuetz/SwiftCharts.git`)
+  - SWSegmentedControl
+
+EXTERNAL SOURCES:
+  SwiftCharts:
+    :git: https://github.com/i-schuetz/SwiftCharts.git
+
+CHECKOUT OPTIONS:
+  SwiftCharts:
+    :commit: 78c09df3037bc6a2ba9d0f1e327b2b40229352f1
+    :git: https://github.com/i-schuetz/SwiftCharts.git
+
+SPEC CHECKSUMS:
+  FSCalendar: c00fa5f4c3ec343ee6f7b804ae19322e9898bb84
+  JSQMessagesViewController: 39fed975e3c9f8eba7292071e29eeb541d105e66
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SwiftCharts: 3c2e996851053ea0ccd4a78054308faf8c67e4dc
+  SWSegmentedControl: 883cb2ad0bf5b20f898c81a14bca34320b44c061
+
+PODFILE CHECKSUM: 985753e18ef22df47818adb8b36933cf465459bb
+
+COCOAPODS: 1.2.0
